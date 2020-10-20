@@ -65,4 +65,3 @@ class BlogTests(TestCase):
             reverse('post_delete', args='1'))
         self.assertEqual(response.status_code, 200)
 
-        
